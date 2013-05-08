@@ -3,10 +3,14 @@ Homework for Chapter 2 of Learning MySQL (2006 edition), from p. 94:
 Exercises:
 1) What is command completion?
 
+a) Hitting <tab> will bring up commands that start with letters you have already typed.
+
 2) What are the relative advantages of installing MySQL using the package,
  directory archive (tarball or "no-install"), or compiled methods?
 
 3) How do you verify the integrity of downloaded packages?
+
+a) Compare the checksum provided by the company with the one in the file.
 
 4) How do you add the MySQL bin directory to the operating system path?
 
@@ -14,7 +18,11 @@ Additional Exercises (not in the book):
 1) Document how you installed MySQL and any issues you came across with installation. 
  (The goal is to be easy to install it again on a similar machine.)
 
+a) First downloaded the generic Linux files as rpms. Took me a while to figure out thet Debian systems don't like rpm files, downloaded the debian package. Umbuntu software installer says the package is bad. Try download/unpack again with same result. Read ahead in chapter to the part we're supposed to skip, it mentions you can just apt-get install the files. Do so. It works. :)
+
 2) Document where important files should be.
+
+
 
 Do not forget to do a pull request when your homework is complete.
 http://www.meetup.com/Virtual-Tech-Self-Study/messages/boards/thread/29963152/
